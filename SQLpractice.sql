@@ -68,7 +68,7 @@ Select * from
 Where emp.RowNumber <= (select count(empid)/2 from employee);
 
 
--- Query to fetch the employee's salary but replace the last 2 digite with 'XX' 
+-- Query to fetch the employee's salary but replace the last 2 digite with 'XX'
 
 Select salary, 
 concat(substring(salary::text,1,length(salary::text)-2),'XX') as masked_number
