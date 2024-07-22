@@ -12,7 +12,7 @@ VALUES (1, 'Arjun', 'M', 75000, 'Pune'),
 (4, 'Madhav', 'M', 250000 , 'Delhi'),
 (5, 'Visakha', 'F', 120000 , 'Mathura')
 
-
+	
 CREATE TABLE EmployeeDetail (
 EmpID int NOT NULL,
 Project Varchar,
